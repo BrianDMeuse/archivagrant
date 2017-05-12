@@ -19,7 +19,8 @@ Vagrant.configure(2) do |config|
      vb.memory = "4096"
   end
 
-  #config.vm.provision "shell", path:"setup_python.sh"
+  config.vm.provision "shell", path:"setup_repos.sh"
+  config.vm.provision "shell", path:"setup_python.sh"
   #config.vm.provision "shell", path:"setup_mysql.sh"
   #config.vm.provision "shell", path:"setup_archivesspace.sh"
 
