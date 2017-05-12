@@ -18,9 +18,9 @@ mkdir /aspace/zips
 cd /aspace/source
 git clone https://github.com/archivesspace/archivesspace.git
 cd /aspace/zips
-wget https://github.com/archivesspace/archivesspace/releases/download/v1.5.3/archivesspace-v1.5.3.zip
+wget https://github.com/archivesspace/archivesspace/releases/download/v1.4.1/archivesspace-v1.4.1.zip
 cd /aspace
-unzip /aspace/zips/archivesspace-v1.5.3.zip
+unzip /aspace/zips/archivesspace-v1.4.1.zip
 
 chown -R vagrant:vagrant /aspace
 
