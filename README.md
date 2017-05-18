@@ -1,5 +1,7 @@
 # archivagrant
-BHL ArchivesSpace Vagrant Setup
+Brandeis Univeristy ArchivesSpace Vagrant Setup
+
+Modified from BHL Setup
 
 1. Install VirtualBox
 2. Install Vagrant
