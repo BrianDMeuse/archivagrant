@@ -8,9 +8,5 @@ service mysqld start
 mysql -uroot -e "create database archivesspace"
 mysql -uroot -e "grant all on archivesspace.* to 'as'@'localhost' identified by 'as123'"
 
-#yum -y install phpmyadmin
-
-#service httpd restart
-
 # load whatever mysqldump file we added
 mysql -uas -pas123 archivesspace < sql/mysqldump.sql
