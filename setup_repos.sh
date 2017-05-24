@@ -10,4 +10,5 @@ rpm -ivh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
 rpm -ivh https://dev.mysql.com/get/mysql57-community-release-el6-11.noarch.rpm
 
 # Install yum-config-manager
-yum install yum-utils
+yum -y install yum-utils
+
