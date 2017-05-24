@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Use 5.1.73 for now
+yum-config-manager --disable mysql57-community
+
 yum -y install mysql-server
 
 service mysqld start
