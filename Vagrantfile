@@ -26,8 +26,9 @@ Vagrant.configure(2) do |config|
    
   config.vm.provision "shell", path:"setup_repos.sh"
   config.vm.provision "shell", path:"setup_mysql.sh"
-  config.vm.provision "shell", path:"setup_php.sh"
-  config.vm.provision "shell", path:"setup_http.sh"
+  config.vm.provision "shell", path:"sql/mysql_secure.sh" 
+  #config.vm.provision "shell", path:"setup_php.sh"
+  #config.vm.provision "shell", path:"setup_http.sh"
   config.vm.provision "shell", path:"setup_archivesspace.sh"
 
 end
