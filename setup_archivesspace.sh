@@ -21,7 +21,7 @@ ln -s /usr/local/archivesspace-v1.4.1/archivesspace aspace
 cd aspace
 
 # tweak to point to localhost and not production
-sed -i 's/findingaids.brandeis.edu/localhost/' plugins/brandeis/public/views/site/index.html.erb
+sed -i 's/findingaids.brandeis.edu/localhost:8081/' plugins/brandeis/public/views/site/index.html.erb
 
 ./archivesspace.sh start
 
