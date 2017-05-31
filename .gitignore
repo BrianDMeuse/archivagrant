@@ -1,5 +1,5 @@
 .vagrant
 local/*
-sql/*.sql
+sql/*
 *.sql
 *.jar
