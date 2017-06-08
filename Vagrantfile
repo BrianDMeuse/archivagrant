@@ -32,6 +32,6 @@ Vagrant.configure(2) do |config|
   config.vm.provision "shell", path:"setup_archivesspace.sh"
   
   if ENV['UPGRADE'] == 'Y'
-    config.vm.provision "shell", path:"sql/upgrade15.sh" 
+    config.vm.provision "shell", path:"upgrade15.sh" 
   end
 end
