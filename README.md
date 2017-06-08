@@ -7,4 +7,4 @@ Modified from BHL Setup
 2. Install Vagrant
 3. Clone the repo
 4. cd archivagrant
-5. vagrant up
+5. UPGRADE='Y' vagrant up to launch upgrade script
