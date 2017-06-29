@@ -12,11 +12,11 @@ git clone https://github.com/BrianDMeuse/archivesspace.git
 
 chown -R vagrant:vagrant archivesspace
 
-mkdir archivesspace-v1.4.1
+mkdir archivesspace-v1.5.4
 
-mv archivesspace archivesspace-v1.4.1/
+mv archivesspace archivesspace-v1.5.4/
 
-ln -s /usr/local/archivesspace-v1.4.1/archivesspace aspace
+ln -s /usr/local/archivesspace-v1.5.4/archivesspace aspace
 
 cd aspace
 
